@@ -1,0 +1,50 @@
+<Subject0_Event>
+  <Event>
+    <Source>CCHMI Mobile</Source>
+    <Name>Event Notification</Name>
+    <Time>2017-03-01 16:16:01.341890</Time>
+    <HR>70</HR>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>CCHMI Cluster Show</Name>
+    <Time>2017-03-01 16:16:06.775055</Time>
+    <HR>72</HR>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>Start Google Map</Name>
+    <Time>2017-03-01 16:16:22.525351</Time>
+    <HR>72</HR>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>CCHMI Cluster Show</Name>
+    <Time>2017-03-01 16:17:12.107421</Time>
+    <HR>61</HR>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>HMI_CONTROL</Name>
+    <Time>2017-03-01 16:17:18.862622</Time>
+    <HR>62</HR>
+  </Event>
+  <Event>
+    <Source>CCHMI Mobile</Source>
+    <Name>Parking Notification</Name>
+    <Time>2017-03-01 16:18:27.057435</Time>
+    <HR>71</HR>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>CCHMI Cluster Show</Name>
+    <Time>2017-03-01 16:18:27.170772</Time>
+    <HR>71</HR>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>PARKING</Name>
+    <Time>2017-03-01 16:18:37.609458</Time>
+    <HR>66</HR>
+  </Event>
+</Subject0_Event>
