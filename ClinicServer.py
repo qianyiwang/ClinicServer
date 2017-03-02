@@ -68,7 +68,7 @@ for i in range(0,len(taskName)):
 	etree.SubElement(task, "HR").text = str(hr_current[i])
 	etree.SubElement(task, "Location").text = str(location_current[i])
 	etree.SubElement(task, "Velocity").text = str(velocity_current[i])
-	etree.SubElement(task, "Driving Data").text = ''
+	etree.SubElement(task, "DrivingData").text = ''
 et = etree.ElementTree(root)
 et.write('data/Subject%s_Event.xml' % subject_name, pretty_print=True)
 # generate the data xml
@@ -77,6 +77,6 @@ for i in range(0, len(hr)):
 	task2 = etree.SubElement(root2, "Data")
 	etree.SubElement(task2, "HR").text = hr[i]
 	etree.SubElement(task2, "ADAS").text = adas[i]
-	etree.SubElement(task2, "Driving Data").text = ''
+	etree.SubElement(task2, "DrivingData").text = ''
 et2 = etree.ElementTree(root2)
 et2.write('data/Subject%s_Data.xml' % subject_name, pretty_print=True)

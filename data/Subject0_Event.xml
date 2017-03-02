@@ -2,49 +2,73 @@
   <Event>
     <Source>CCHMI Mobile</Source>
     <Name>Event Notification</Name>
-    <Time>2017-03-01 16:16:01.341890</Time>
-    <HR>70</HR>
+    <Time>2017-03-02 12:54:42.073224</Time>
+    <HR>73</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
   <Event>
     <Source>CCHMI Watch</Source>
     <Name>CCHMI Cluster Show</Name>
-    <Time>2017-03-01 16:16:06.775055</Time>
-    <HR>72</HR>
+    <Time>2017-03-02 12:54:44.840701</Time>
+    <HR>74</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
   <Event>
     <Source>CCHMI Watch</Source>
     <Name>Start Google Map</Name>
-    <Time>2017-03-01 16:16:22.525351</Time>
-    <HR>72</HR>
+    <Time>2017-03-02 12:54:50.981631</Time>
+    <HR>76</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
   <Event>
     <Source>CCHMI Watch</Source>
     <Name>CCHMI Cluster Show</Name>
-    <Time>2017-03-01 16:17:12.107421</Time>
-    <HR>61</HR>
+    <Time>2017-03-02 12:55:03.371617</Time>
+    <HR>80</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
   <Event>
     <Source>CCHMI Watch</Source>
     <Name>HMI_CONTROL</Name>
-    <Time>2017-03-01 16:17:18.862622</Time>
-    <HR>62</HR>
+    <Time>2017-03-02 12:55:10.743710</Time>
+    <HR>80</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
   <Event>
     <Source>CCHMI Mobile</Source>
     <Name>Parking Notification</Name>
-    <Time>2017-03-01 16:18:27.057435</Time>
-    <HR>71</HR>
+    <Time>2017-03-02 12:56:25.803471</Time>
+    <HR>75</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
   <Event>
     <Source>CCHMI Watch</Source>
     <Name>CCHMI Cluster Show</Name>
-    <Time>2017-03-01 16:18:27.170772</Time>
-    <HR>71</HR>
+    <Time>2017-03-02 12:56:26.522529</Time>
+    <HR>75</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
   <Event>
     <Source>CCHMI Watch</Source>
     <Name>PARKING</Name>
-    <Time>2017-03-01 16:18:37.609458</Time>
-    <HR>66</HR>
+    <Time>2017-03-02 12:56:31.760166</Time>
+    <HR>77</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
 </Subject0_Event>
