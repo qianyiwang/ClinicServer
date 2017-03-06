@@ -1,8 +1,155 @@
 <Subject0_Event>
   <Event>
-    <Source>Phone</Source>
-    <Name>Baseline Notification</Name>
-    <Time>2017-02-28 15:39:02.877087</Time>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-02 14:24:30.519155</Time>
     <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-02 14:26:05.315685</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-02 14:26:07.272858</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-02 14:26:10.540091</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-02 14:26:13.801741</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-02 14:26:15.455998</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdExecuted</Name>
+    <Time>2017-03-02 14:26:16.782100</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>EnterAddressIssued</Name>
+    <Time>2017-03-02 14:26:21.876088</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>EnterAddressExecuted</Name>
+    <Time>2017-03-02 14:26:23.334976</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>parkopediaIssued</Name>
+    <Time>2017-03-02 14:26:25.074475</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>parkopediaIssued</Name>
+    <Time>2017-03-02 14:26:33.267901</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>parkopediaExecuted</Name>
+    <Time>2017-03-02 14:27:09.454070</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>parkopediaIssued</Name>
+    <Time>2017-03-02 14:27:11.853948</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>EnterAddressExecuted</Name>
+    <Time>2017-03-02 14:27:14.472701</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>EnterAddressIssued</Name>
+    <Time>2017-03-02 14:27:18.332048</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdExecuted</Name>
+    <Time>2017-03-02 14:27:20.179801</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-02 14:27:22.569544</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
   </Event>
 </Subject0_Event>

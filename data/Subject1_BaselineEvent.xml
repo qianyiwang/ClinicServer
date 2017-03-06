@@ -1,0 +1,173 @@
+<Subject1_Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdIssued</Name>
+    <Time>2017-03-03 11:30:00.760737</Time>
+    <HR>0</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>GoogleMapCmdExecuted</Name>
+    <Time>2017-03-03 11:30:05.574118</Time>
+    <HR>79</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>EnterAddressIssued</Name>
+    <Time>2017-03-03 11:30:08.026814</Time>
+    <HR>78</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>EnterAddressExecuted</Name>
+    <Time>2017-03-03 11:30:11.100175</Time>
+    <HR>78</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>climate_entry</Name>
+    <Time>2017-03-03 11:30:31.383869</Time>
+    <HR>76</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>climate_dvr_tempUp</Name>
+    <Time>2017-03-03 11:30:34.654040</Time>
+    <HR>77</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>climate_dvr_tempUp</Name>
+    <Time>2017-03-03 11:30:36.372698</Time>
+    <HR>73</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>climate_dvr_tempUp</Name>
+    <Time>2017-03-03 11:30:37.827504</Time>
+    <HR>73</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>home</Name>
+    <Time>2017-03-03 11:30:39.885232</Time>
+    <HR>71</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>Enter the Bluetooth Audio</Name>
+    <Time>2017-03-03 11:30:46.224979</Time>
+    <HR>70</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>audio_seekup</Name>
+    <Time>2017-03-03 11:30:49.095608</Time>
+    <HR>69</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>audio_seekup</Name>
+    <Time>2017-03-03 11:31:09.776506</Time>
+    <HR>61</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>audio_pause</Name>
+    <Time>2017-03-03 11:31:09.776528</Time>
+    <HR>61</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>home</Name>
+    <Time>2017-03-03 11:31:12.531235</Time>
+    <HR>62</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>Enter Setting</Name>
+    <Time>2017-03-03 11:31:19.809957</Time>
+    <HR>64</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>MCS clicked</Name>
+    <Time>2017-03-03 11:31:23.910526</Time>
+    <HR>62</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC</Source>
+    <Name>home</Name>
+    <Time>2017-03-03 11:31:26.980629</Time>
+    <HR>62</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>parkopediaIssued</Name>
+    <Time>2017-03-03 11:31:30.464010</Time>
+    <HR>64</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>Human</Source>
+    <Name>parkopediaExecuted</Name>
+    <Time>2017-03-03 11:31:33.019666</Time>
+    <HR>66</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+</Subject1_Event>

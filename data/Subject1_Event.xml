@@ -1,0 +1,199 @@
+<Subject1_Event>
+  <Event>
+    <Source>CCHMI Mobile</Source>
+    <Name>Event Notification</Name>
+    <Time>2017-03-03 11:07:23.229910</Time>
+    <HR>78</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>CCHMI Cluster Show</Name>
+    <Time>2017-03-03 11:07:31.614388</Time>
+    <HR>83</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>Start Google Map</Name>
+    <Time>2017-03-03 11:07:35.305259</Time>
+    <HR>82</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>CCHMI Cluster Show</Name>
+    <Time>2017-03-03 11:08:06.137848</Time>
+    <HR>70</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>HMI_CONTROL</Name>
+    <Time>2017-03-03 11:08:18.530014</Time>
+    <HR>74</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>Climate clicked</Name>
+    <Time>2017-03-03 11:08:31.328452</Time>
+    <HR>73</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>driver_tempUp</Name>
+    <Time>2017-03-03 11:08:42.802764</Time>
+    <HR>72</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>driver_tempUp</Name>
+    <Time>2017-03-03 11:08:45.874896</Time>
+    <HR>72</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>driver_tempUp</Name>
+    <Time>2017-03-03 11:08:47.711363</Time>
+    <HR>74</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>home</Name>
+    <Time>2017-03-03 11:09:11.163081</Time>
+    <HR>78</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>MCS clicked</Name>
+    <Time>2017-03-03 11:09:15.260904</Time>
+    <HR>79</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>home</Name>
+    <Time>2017-03-03 11:09:18.459867</Time>
+    <HR>80</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>bluetooth audio</Name>
+    <Time>2017-03-03 11:09:20.896440</Time>
+    <HR>80</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Name>Enter the Bluetooth Audio</Name>
+    <Time>2017-03-03 11:09:20.896463</Time>
+    <HR>80</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>Bluetooth Audio clicked</Name>
+    <Time>2017-03-03 11:09:21.093894</Time>
+    <HR>80</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>audio_seekUp</Name>
+    <Time>2017-03-03 11:09:28.470676</Time>
+    <HR>79</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>audio_seekUp</Name>
+    <Time>2017-03-03 11:09:30.001909</Time>
+    <HR>79</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>audio_pause</Name>
+    <Time>2017-03-03 11:09:32.770112</Time>
+    <HR>76</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>SYNC RC</Source>
+    <Name>home</Name>
+    <Time>2017-03-03 11:09:35.429103</Time>
+    <HR>75</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>CCHMI Mobile</Source>
+    <Name>Parking Notification</Name>
+    <Time>2017-03-03 11:10:42.399068</Time>
+    <HR>63</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>CCHMI Cluster Show</Name>
+    <Time>2017-03-03 11:10:42.920582</Time>
+    <HR>63</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+  <Event>
+    <Source>CCHMI Watch</Source>
+    <Name>PARKING</Name>
+    <Time>2017-03-03 11:10:47.009141</Time>
+    <HR>65</HR>
+    <Location></Location>
+    <Velocity></Velocity>
+    <DrivingData></DrivingData>
+  </Event>
+</Subject1_Event>

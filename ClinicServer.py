@@ -1,6 +1,8 @@
 import socket
 import datetime
 from lxml import etree
+from os import system
+import thread
 UDP_IP = "192.168.0.86"
 UDP_PORT = 8001
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
@@ -23,12 +25,25 @@ subject_name = raw_input('Enter subject ID:')
 def parseContent(data):
 	return data[data.index('_')+1:];
 
+def speakTaskOrder(data):
+	# cmd = parseContent(data);
+	# print str(datetime.datetime.now()), cmd
+	if 'ClimateTaskIssued' in data:
+		system('say please set driver temperature to 24.5 from smart watch')
+	elif 'AudioTaskIssued' in data:
+		system('say please play sleep away mp3 from smart watch')
+	elif 'MCSTaskIssued' in data:
+		system('say please bring up the MCS UI from smart watch')
+
 while True:
 	try:
 		data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
 		if 'QtEnd' in data:
 				data = data[0:data.index('QtEnd')]
 	
+		if 'Human_' in data:
+			thread.start_new_thread(speakTaskOrder, (data,))
+
 		if "hr:" in data:
 			print str(datetime.datetime.now()), data, adas_last
 			hr_last = data[data.index(':')+1:];
@@ -63,6 +78,8 @@ for i in range(0,len(taskName)):
 		etree.SubElement(task, 'Source').text = 'CCHMI Watch'
 	elif 'SYNC RC' in taskName[i]:
 		etree.SubElement(task, 'Source').text = 'SYNC RC'
+	elif 'Human' in taskName[i]:
+		etree.SubElement(task, 'Source').text = 'Human'
 	etree.SubElement(task, "Name").text = parseContent(taskName[i])
 	etree.SubElement(task, "Time").text = taskTime[i]
 	etree.SubElement(task, "HR").text = str(hr_current[i])
@@ -75,6 +92,7 @@ et.write('data/Subject%s_Event.xml' % subject_name, pretty_print=True)
 root2 = etree.Element('Subject%s_Data' % subject_name)
 for i in range(0, len(hr)):
 	task2 = etree.SubElement(root2, "Data")
+	etree.SubElement(task2, "Time").text = str(datetime.datetime.now())
 	etree.SubElement(task2, "HR").text = hr[i]
 	etree.SubElement(task2, "ADAS").text = adas[i]
 	etree.SubElement(task2, "DrivingData").text = ''
