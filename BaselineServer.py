@@ -82,8 +82,14 @@ while True:
 		#check if data comes from administrator
 		if 'Human_' in data:
 			thread.start_new_thread(speakTaskOrder, (data,))
+		elif "ADAS" in data:
+			adas_last = data
+		elif 'Velocity' in data:
+			velocity_last = data[data.index(':')+1:];
+		elif 'Location' in data:
+			location_last = data[data.index(':')+1:];
 		#store continous data
-		if "hr:" in data:
+		elif "hr:" in data:
 			print str(datetime.datetime.now()), data, adas_last
 			hr_last = data[data.index(':')+1:];
 			hr.append(hr_last)
@@ -96,12 +102,7 @@ while True:
 			lane_offset.append(lane_offset_last)
 			steering_angle.append(steering_angle_last)
 			simulator_time.append(simulator_time_last)
-		elif "ADAS" in data:
-			adas_last = data
-		elif 'Velocity' in data:
-			velocity_last = data[data.index(':')+1:];
-		elif 'Location' in data:
-			location_last = data[data.index(':')+1:];
+		
 		# store event data
 		else:
 			print str(datetime.datetime.now()), data

@@ -66,6 +66,7 @@ while True:
 	try:
 		data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
 		# check if data comes from simulator
+		print data
 		if '|' in data:
 			all_vehicle_data = data.split('|')
 			simulator_time_last = all_vehicle_data[1]+':'+all_vehicle_data[2]+':'+all_vehicle_data[3]
@@ -76,15 +77,18 @@ while True:
 			acceleration_last = all_vehicle_data[9]
 			lane_offset_last = all_vehicle_data[10]
 		# check if data comes from Qt 
-		if 'QtEnd' in data:
+		elif 'QtEnd' in data:
 			data = data[0:data.index('QtEnd')]
 		
 		# check if the data comes from administrator
-		if 'Human_' in data:
+		elif 'Human_' in data:
 			thread.start_new_thread(speakTaskOrder, (data,))
 
+		elif "ADAS" in data:
+			adas_last = data
+
 		# store continous data
-		if "hr:" in data:
+		elif "hr:" in data:
 			print str(datetime.datetime.now()), data, adas_last
 			hr_last = data[data.index(':')+1:]
 			hr.append(hr_last)
@@ -97,9 +101,6 @@ while True:
 			lane_offset.append(lane_offset_last)
 			steering_angle.append(steering_angle_last)
 			simulator_time.append(simulator_time_last)
-			
-		elif "ADAS" in data:
-			adas_last = data
 
 		# store event data
 		else:
