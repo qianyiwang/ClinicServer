@@ -65,8 +65,7 @@ def speakTaskOrder(data):
 while True:
 	try:
 		data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
-		# check if data comes from simulator
-		# print data
+		# do data processing
 		if '|' in data:
 			all_vehicle_data = data.split('|')
 			simulator_time_last = all_vehicle_data[1]+':'+all_vehicle_data[2]+':'+all_vehicle_data[3]
@@ -133,6 +132,10 @@ for i in range(0,len(taskName)):
 		etree.SubElement(task, 'Source').text = 'Human'
 	elif 'Vehicle Simulator' in taskName[i]:
 		etree.SubElement(task, 'Source').text = 'Human'
+	elif 'SYNC_' in taskName[i]:
+		etree.SubElement(task, 'Source').text = 'SYNC'
+	else:
+		etree.SubElement(task, 'Source').text = 'UNKNOWN'
 	etree.SubElement(task, "Name").text = parseContent(taskName[i])
 	etree.SubElement(task, "Time").text = taskTime[i]
 	etree.SubElement(task, "HR").text = str(hr_current[i])
