@@ -3,7 +3,7 @@ import datetime
 from lxml import etree
 from os import system
 import thread
-UDP_IP = "192.168.0.86"
+UDP_IP = "192.168.0.89"
 UDP_PORT = 8001
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
 sock.bind((UDP_IP, UDP_PORT))
@@ -66,7 +66,7 @@ while True:
 	try:
 		data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
 		# check if data comes from simulator
-		print data
+		# print data
 		if '|' in data:
 			all_vehicle_data = data.split('|')
 			simulator_time_last = all_vehicle_data[1]+':'+all_vehicle_data[2]+':'+all_vehicle_data[3]
@@ -79,7 +79,7 @@ while True:
 		# check if data comes from Qt 
 		elif 'QtEnd' in data:
 			data = data[0:data.index('QtEnd')]
-		
+			print str(datetime.datetime.now()), data
 		# check if the data comes from administrator
 		elif 'Human_' in data:
 			thread.start_new_thread(speakTaskOrder, (data,))
@@ -88,7 +88,7 @@ while True:
 			adas_last = data
 
 		# store continous data
-		elif "hr:" in data:
+		if "hr:" in data:
 			print str(datetime.datetime.now()), data, adas_last
 			hr_last = data[data.index(':')+1:]
 			hr.append(hr_last)
@@ -103,8 +103,9 @@ while True:
 			simulator_time.append(simulator_time_last)
 
 		# store event data
-		else:
+		elif '|' not in data:
 			# print str(datetime.datetime.now()), data
+			print "Event:"+data
 			taskName.append(data)
 			taskTime.append(str(datetime.datetime.now()))
 			hr_current.append(hr_last)
@@ -138,11 +139,11 @@ for i in range(0,len(taskName)):
 	etree.SubElement(task, "ADAS").text = adas_current[i]
 	etree.SubElement(task, "Velocity").text = velocity_current[i]
 	etree.SubElement(task, "Acceleration").text = acceleration_current[i]
-	etree.SubElement(task, "Brake State").text = brake_state_current[i]
-	etree.SubElement(task, "Steering Wheel Angle").text = steering_angle_current[i]
-	etree.SubElement(task, "Lane Offset").text = lane_offset_current[i]
+	etree.SubElement(task, "BrakeState").text = brake_state_current[i]
+	etree.SubElement(task, "SteeringWheelAngle").text = steering_angle_current[i]
+	etree.SubElement(task, "LaneOffset").text = lane_offset_current[i]
 	etree.SubElement(task, "Location").text = location_current[i]
-	etree.SubElement(task, "Simulator Time").text = simulator_time_current[i]
+	etree.SubElement(task, "SimulatorTime").text = simulator_time_current[i]
 
 et = etree.ElementTree(root)
 et.write('data/Subject%s_Event.xml' % subject_name, pretty_print=True)
@@ -153,12 +154,12 @@ for i in range(0, len(hr)):
 	etree.SubElement(task2, "Time").text = str(datetime.datetime.now())
 	etree.SubElement(task2, "HR").text = hr[i]
 	etree.SubElement(task2, "ADAS").text = adas[i]
-	etree.SubElement(task, "Velocity").text = velocity[i]
-	etree.SubElement(task, "Acceleration").text = acceleration[i]
-	etree.SubElement(task, "Brake State").text = brake_state[i]
-	etree.SubElement(task, "Steering Wheel Angle").text = steering_angle[i]
-	etree.SubElement(task, "Lane Offset").text = lane_offset[i]
-	etree.SubElement(task, "Location").text = location[i]
-	etree.SubElement(task, "Simulator Time").text = simulator_time[i]
+	etree.SubElement(task2, "Velocity").text = velocity[i]
+	etree.SubElement(task2, "Acceleration").text = acceleration[i]
+	etree.SubElement(task2, "BrakeState").text = brake_state[i]
+	etree.SubElement(task2, "SteeringWheelAngle").text = steering_angle[i]
+	etree.SubElement(task2, "LaneOffset").text = lane_offset[i]
+	etree.SubElement(task2, "Location").text = location[i]
+	etree.SubElement(task2, "SimulatorTime").text = simulator_time[i]
 et2 = etree.ElementTree(root2)
 et2.write('data/Subject%s_Data.xml' % subject_name, pretty_print=True)
