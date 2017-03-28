@@ -103,7 +103,7 @@ while True:
 			simulator_time.append(simulator_time_last)
 
 		# store event data
-		elif '|' not in data:
+		elif '|' not in data and 'ADAS_' not in data:
 			# print str(datetime.datetime.now()), data
 			print "Event:"+data
 			taskName.append(data)

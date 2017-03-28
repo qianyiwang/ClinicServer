@@ -28,6 +28,19 @@
     <SimulatorTime>16:58:28</SimulatorTime>
   </Event>
   <Event>
+    <Name>Speeding</Name>
+    <Time>2017-03-27 16:57:42.935237</Time>
+    <HR>65</HR>
+    <ADAS>ADAS_Speeding</ADAS>
+    <Velocity>1232.930779</Velocity>
+    <Acceleration>1.336502</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>-3.096000</SteeringWheelAngle>
+    <LaneOffset>0.291713</LaneOffset>
+    <Location>-6105.695313,1562.839355</Location>
+    <SimulatorTime>16:58:42</SimulatorTime>
+  </Event>
+  <Event>
     <Source>CCHMI Watch</Source>
     <Name>CCHMI Cluster Show</Name>
     <Time>2017-03-27 16:57:47.446060</Time>
@@ -56,6 +69,45 @@
     <SimulatorTime>16:58:50</SimulatorTime>
   </Event>
   <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:58:01.026466</Time>
+    <HR>71</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>399.809166</Velocity>
+    <Acceleration>-0.182108</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>54.719999</SteeringWheelAngle>
+    <LaneOffset>-0.004492</LaneOffset>
+    <Location>-6105.398926,1983.129395</Location>
+    <SimulatorTime>16:59:00</SimulatorTime>
+  </Event>
+  <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:58:03.073301</Time>
+    <HR>71</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>434.314189</Velocity>
+    <Acceleration>0.485014</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>191.772000</SteeringWheelAngle>
+    <LaneOffset>1.688965</LaneOffset>
+    <Location>-6110.692383,1996.012573</Location>
+    <SimulatorTime>16:59:02</SimulatorTime>
+  </Event>
+  <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:58:12.872284</Time>
+    <HR>77</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>1253.599587</Velocity>
+    <Acceleration>1.309179</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>1.512000</SteeringWheelAngle>
+    <LaneOffset>0.576831</LaneOffset>
+    <Location>-6257.612793,1997.623169</Location>
+    <SimulatorTime>16:59:12</SimulatorTime>
+  </Event>
+  <Event>
     <Source>CCHMI Watch</Source>
     <Name>CCHMI Cluster Show</Name>
     <Time>2017-03-27 16:58:22.573334</Time>
@@ -82,6 +134,19 @@
     <LaneOffset>-0.907690</LaneOffset>
     <Location>-6556.207520,1995.507690</Location>
     <SimulatorTime>16:59:24</SimulatorTime>
+  </Event>
+  <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:58:29.405767</Time>
+    <HR>71</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>1519.069807</Velocity>
+    <Acceleration>0.742212</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>-11.448000</SteeringWheelAngle>
+    <LaneOffset>-0.151465</LaneOffset>
+    <Location>-6656.662598,1994.751465</Location>
+    <SimulatorTime>16:59:28</SimulatorTime>
   </Event>
   <Event>
     <Source>SYNC RC</Source>
@@ -140,6 +205,32 @@
     <SimulatorTime>16:59:34</SimulatorTime>
   </Event>
   <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:58:38.435946</Time>
+    <HR>76</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>1311.191415</Velocity>
+    <Acceleration>0.790978</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>-101.304000</SteeringWheelAngle>
+    <LaneOffset>0.468581</LaneOffset>
+    <Location>-6875.506348,2017.172119</Location>
+    <SimulatorTime>16:59:38</SimulatorTime>
+  </Event>
+  <Event>
+    <Name>Speeding</Name>
+    <Time>2017-03-27 16:58:43.010110</Time>
+    <HR>75</HR>
+    <ADAS>ADAS_Speeding</ADAS>
+    <Velocity>1449.966105</Velocity>
+    <Acceleration>0.903544</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>-9.108000</SteeringWheelAngle>
+    <LaneOffset>1.359692</LaneOffset>
+    <Location>-6903.160156,2104.920654</Location>
+    <SimulatorTime>16:59:42</SimulatorTime>
+  </Event>
+  <Event>
     <Source>SYNC RC</Source>
     <Name>driver_tempUp</Name>
     <Time>2017-03-27 16:58:46.704622</Time>
@@ -196,6 +287,19 @@
     <SimulatorTime>16:59:50</SimulatorTime>
   </Event>
   <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:58:50.823422</Time>
+    <HR>74</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>1789.569340</Velocity>
+    <Acceleration>0.621532</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>4.968000</SteeringWheelAngle>
+    <LaneOffset>0.508269</LaneOffset>
+    <Location>-6902.308594,2333.479736</Location>
+    <SimulatorTime>16:59:50</SimulatorTime>
+  </Event>
+  <Event>
     <Source>SYNC RC</Source>
     <Name>MCS clicked</Name>
     <Time>2017-03-27 16:58:55.649466</Time>
@@ -224,6 +328,19 @@
     <SimulatorTime>17:00:00</SimulatorTime>
   </Event>
   <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:59:03.290890</Time>
+    <HR>77</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>2104.998076</Velocity>
+    <Acceleration>0.330431</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>-1.440000</SteeringWheelAngle>
+    <LaneOffset>-0.639522</LaneOffset>
+    <Location>-6904.760742,2745.846191</Location>
+    <SimulatorTime>17:00:02</SimulatorTime>
+  </Event>
+  <Event>
     <Source>SYNC RC</Source>
     <Name>Bluetooth Audio clicked</Name>
     <Time>2017-03-27 16:59:03.290957</Time>
@@ -239,8 +356,21 @@
   </Event>
   <Event>
     <Source>SYNC RC</Source>
-    <Name>Enter the Bluetooth Audio</Name>
+    <Name>bluetooth audio</Name>
     <Time>2017-03-27 16:59:03.292439</Time>
+    <HR>77</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
+    <Velocity>2104.998076</Velocity>
+    <Acceleration>0.330431</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>-1.440000</SteeringWheelAngle>
+    <LaneOffset>-0.639522</LaneOffset>
+    <Location>-6904.760742,2745.846191</Location>
+    <SimulatorTime>17:00:02</SimulatorTime>
+  </Event>
+  <Event>
+    <Name>Enter the Bluetooth Audio</Name>
+    <Time>2017-03-27 16:59:03.325728</Time>
     <HR>77</HR>
     <ADAS>ADAS_LaneKeeping</ADAS>
     <Velocity>2104.998076</Velocity>
@@ -271,6 +401,19 @@
     <Time>2017-03-27 16:59:12.771553</Time>
     <HR>72</HR>
     <ADAS></ADAS>
+    <Velocity>2189.835364</Velocity>
+    <Acceleration>-0.020477</Acceleration>
+    <BrakeState>0.000000</BrakeState>
+    <SteeringWheelAngle>2.808000</SteeringWheelAngle>
+    <LaneOffset>0.793387</LaneOffset>
+    <Location>-6902.593750,3125.606689</Location>
+    <SimulatorTime>17:00:12</SimulatorTime>
+  </Event>
+  <Event>
+    <Name>LaneKeeping</Name>
+    <Time>2017-03-27 16:59:13.322402</Time>
+    <HR>72</HR>
+    <ADAS>ADAS_LaneKeeping</ADAS>
     <Velocity>2189.835364</Velocity>
     <Acceleration>-0.020477</Acceleration>
     <BrakeState>0.000000</BrakeState>
